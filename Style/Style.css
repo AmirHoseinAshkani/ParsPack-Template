@@ -1,2 +1,262 @@
 @import url(./_CssReset.css);
 
+.Container {
+  width: 100%;
+  background: rgb(25, 172, 227);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 172, 227, 1) 11%,
+    rgba(16, 156, 232, 1) 29%,
+    rgba(5, 139, 236, 1) 61%
+  );
+}
+.Container .NavBar {
+  width: 1400px;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.Container .NavBar .LogoMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 8;
+}
+
+.Container .NavBar .LogoMenu .Menu ul {
+  display: flex;
+  padding-right: 40px;
+}
+.Container .NavBar .LogoMenu .Menu ul li a {
+  color: white;
+  padding-right: 30px;
+  font-size: 17px;
+}
+
+.Container .NavBar .LogoMenu .Menu ul li a i {
+  padding: 5px;
+  vertical-align: -2px;
+}
+
+.Container .NavBar .LogoMenu .Menu ul li a i:hover {
+  transform: rotate(20deg);
+}
+
+.Container .NavBar .SignInUp-PhoneNumber {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 4;
+}
+
+.Container .NavBar .SignInUp-PhoneNumber .SignUp {
+  color: white;
+  font-size: 20px;
+  padding-left: 8px;
+}
+.Container .NavBar .SignInUp-PhoneNumber .SignIn {
+  color: rgba(5, 139, 236, 1);
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 30px;
+  width: 65px;
+  border: none;
+}
+.PhoneNumber p {
+  padding-right: 25px;
+  font-size: 21px;
+  color: white;
+}
+.PhoneNumber p i {
+  vertical-align: -2px;
+  transform: rotate(17deg);
+}
+
+.Container .Header {
+  width: 1400px;
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Img-Responsive {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+.HeaderTitle {
+  display: flex;
+  flex-grow: 6;
+  flex-direction: column;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.259);
+  border-radius: 5px;
+  width: 700px;
+}
+.HeaderTitle h1 {
+  font-size: 1.75rem;
+  padding: 0px 6px 32px 0px;
+  flex-grow: 6;
+  color: white;
+}
+.HeaderTitle .BTNS {
+  display: flex;
+  flex-direction: row;
+  margin: 7px;
+}
+
+.HeaderTitle .BTNS .StartContents {
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  margin: 10px;
+}
+.HeaderTitle .BTNS .StartContents i {
+  vertical-align: -5px;
+  padding: 10px;
+  font-size: 20px;
+  color: #19ace3;
+}
+
+.HeaderTitle .BTNS a i {
+  color: #19ace3;
+  font-size: 25px;
+  vertical-align: -30px;
+  background-color: white;
+  padding: 9px;
+  border-radius: 40px;
+}
+
+.HeaderTitle p {
+  font-size: 17px;
+  color: white;
+}
+.HeaderImage {
+  display: flex;
+  justify-items: left;
+  flex-grow: 6;
+  box-sizing: border-box;
+}
+
+.BannerWordpressSupport {
+  width: 1000px;
+  height: 150px;
+  display: flex;
+  margin: 80px auto;
+  background: rgb(198, 225, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(198, 225, 255, 1) 22%,
+    rgba(234, 244, 255, 1) 52%,
+    rgba(255, 255, 255, 1) 78%
+  );
+  border-radius: 20px;
+}
+
+.BannerWordpressSupport .ImageAndTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 4;
+}
+.BannerWordpressSupport .ImageAndTitle .TitleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+.BannerWordpressSupport .ImageAndTitle .TitleText h2 {
+  padding: 0px 0px 10px 0px;
+}
+.BannerWordpressSupport .Facilities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 4;
+  margin-left: 100px;
+}
+.BannerWordpressSupport .Facilities ul li {
+  padding: 8px;
+}
+.BannerWordpressSupport .Facilities ul li i {
+  padding: 10px;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 100%;
+  vertical-align: -2px;
+  color: #058bec;
+}
+
+.BannerWordpressSupport .BtnServices {
+  flex-grow: 4;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.BannerWordpressSupport .ImageAndTitle .TitleText span {
+  background-color: #bedfff;
+  width: 190px;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.BannerWordpressSupport .BtnServices button {
+  padding: 5px;
+  margin: 10px;
+  border: none;
+  background-color: #79c7ff;
+  border-radius: 9px;
+  font-size: 17px;
+}
+.BannerWordpressSupport .BtnServices button i {
+  vertical-align: -3px;
+  padding: 10px;
+  font-size: 19px;
+}
+.CloudServices {
+  background: rgb(191, 221, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(191, 221, 255, 1) 22%,
+    rgba(234, 244, 255, 1) 52%,
+    rgba(255, 255, 255, 1) 78%
+  );
+  width: 100%;
+}
+.CloudServices .CloudTitle {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.CloudServices .CloudTitle h2 {
+  align-self: center;
+  color: #288ed9;
+}
+.CloudServices .CloudTitle span {
+  font-size: 1.125rem;
+  align-self: center;
+  color: #999;
+}
+
+.CloudServices .CloudServicesContent {
+  width: 1400px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.CloudServices .CloudServicesContent .Card {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 4;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(198, 46, 46);
+  margin: 10px;
+}
