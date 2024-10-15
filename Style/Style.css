@@ -308,7 +308,7 @@
   background-color: white;
   border-radius: 13px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .CardH:hover {
@@ -344,4 +344,203 @@
   color: #b4b4b4;
   line-height: 35px;
   padding: 10px;
+}
+
+.BTNCS {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.BTNCS button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: #288ed9;
+}
+.BTNCS button:hover {
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.Support {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+}
+.TimeMatters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.TimeMattersImg {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 6;
+}
+.ContentsTimeMatters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 6;
+  height: 400px;
+  width: 35%;
+}
+.ContentsTimeMatters h2 {
+  font-size: 30px;
+  padding: 25px;
+  color: #288ed9;
+}
+.ContentsTimeMatters p {
+  font-size: 18px;
+  color: #b3b3b3;
+}
+.StartsSupport {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+  width: 100%;
+  justify-content: flex-start;
+  margin-right: 40px;
+}
+.StartsSupport button {
+  border: none;
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 10px;
+  background-color: #288ed9;
+  color: white;
+  margin-left: 20px;
+}
+.StartsSupport span {
+  font-size: 20px;
+  color: #b3b3b3;
+}
+
+.TimeMatters-two {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.TimeMattersImgSupport {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 6;
+}
+
+.ContentsTimeMattersSupports {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 6;
+  height: 400px;
+  width: 35%;
+}
+
+.ContentsTimeMattersSupports h2 {
+  font-size: 30px;
+  padding: 25px;
+  color: #288ed9;
+}
+
+.ContentsTimeMattersSupports p {
+  font-size: 18px;
+  color: #b3b3b3;
+}
+.Customers {
+  background: linear-gradient(20deg, #288ed9 0, #137fcf 100%);
+  width: 100%;
+}
+.Customers .CustomersResponse {
+  width: 1400px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.CustomerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  justify-content: flex-end;
+}
+
+.CustomerTitle h2 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 5px;
+}
+.CustomerTitle span {
+  color: #98cdf2;
+  font-size: 1.125rem;
+}
+.CustomerParagraph {
+  width: 40%;
+  display: flex;
+  margin: 69px auto;
+  height: 200px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 70px 70px 10px;
+  justify-content: space-around;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  padding-left: 0px;
+  border: 6px solid #b6e0ff78;
+}
+.CustomerImage {
+  width: 100%;
+}
+.CustomerOpinion {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CustomerOpinion h2 {
+  color: #058bec;
+  font-size: 20px;
+  padding: 5px 10px 0px 0px;
+}
+.CustomerOpinion span {
+  color: gray;
+  padding: 0px 20px 2px 0px;
+  font-size: 16px;
+}
+.CustomerOpinion p {
+  padding: 5px;
+  font-size: 13px;
+  color: gray;
+}
+
+.CompanyCustomer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
 }
