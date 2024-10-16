@@ -544,3 +544,76 @@
   display: flex;
   flex-direction: row;
 }
+
+.ConsultationExperts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.ConsultationExperts button {
+  border: none;
+  padding: 15px;
+  font-size: 1.0625rem;
+  border-radius: 35px;
+  color: #058bec;
+}
+
+.TransferDataTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.TransferDataTitle h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+.TransferDataTitle span {
+  color: #98cdf2;
+  font-size: 1.125rem;
+  margin-top: 0.625rem;
+}
+
+.WorldImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WorldImage figure {
+  margin-top: 20px;
+  width: 60%;
+}
+.ImportantLinks {
+  width: 1400px;
+  margin: 100px auto;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
+.ImportantLinks h2 {
+  position: relative;
+}
+.ImportantLinks h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  background-color: darkblue;
+  position: absolute;
+  top: 36px;
+  right: 0;
+}
+.ImportantLinks h2 {
+  margin: 22px 0px 13px 34px;
+  font-size: 20px;
+  color: white;
+}
+.ImportantLinks ul li a{
+  color: white;
+}
+.ImportantLinks ul li{
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
